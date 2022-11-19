@@ -1,6 +1,4 @@
-import Contact from "../contact/Contact"
 import styles from "./Articles.module.scss"
-
 const Articles = () =>  {
     return (
         <div className={styles.articles_style}>
@@ -19,7 +17,6 @@ const Articles = () =>  {
                 </div>
             </div>
 
-            <Contact />
         </div>
     )
 }

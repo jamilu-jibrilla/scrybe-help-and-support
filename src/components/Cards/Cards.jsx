@@ -1,7 +1,7 @@
 import Card from "../card/Card";
 import styles from "./Cards.module.scss";
 
-const Cards = () => {
+const Cards = ({setDisplay}) => {
   return (
     <div className={styles.cards_style}>
       
@@ -11,11 +11,13 @@ const Cards = () => {
       </div>
 
       <div className={styles.cards_holder}>
-        <Card
+      <div onClick={()=> setDisplay(false)}>  
+      <Card
           src="/general.svg"
           header="General"
           paragrapgh="Basic Articles that will help you get the most out of scribe"
         />
+        </div>
         <Card
           src="/account.svg"
           header="Account Management"

@@ -36,3 +36,25 @@
         border-bottom: transparent;
     }
 }
+
+@media screen and (max-width: 900px) {
+    .articles_cont {
+        margin-top: 0r;
+        padding:0 1rem 1rem 1rem;
+        margin-bottom: 2rem;
+        width: 90%;
+        height: fit-content;
+    }
+    
+    .articles_wrapper {
+        padding: 0 1rem;
+        h3 {
+            font-size: 13px;
+            padding: 1rem ;
+            margin-bottom: 1rem;
+            color: #006CFF;
+            cursor: pointer;
+        }
+    }
+    
+}
