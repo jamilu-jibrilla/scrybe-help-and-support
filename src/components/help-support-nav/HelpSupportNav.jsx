@@ -5,7 +5,7 @@ const HelpSupportNav = ({setDisplay}) => {
       
       <div className={styles.nav}>
         <a href="#">Help and Support</a>
-        <img src="/icon.svg" alt="" />
+        <img src="/Icon.svg" alt="" />
         <a onClick={()=> setDisplay(true)} href="#">General</a>
       </div>
 
